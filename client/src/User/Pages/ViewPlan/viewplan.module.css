@@ -1,0 +1,65 @@
+.page {
+  padding: 30px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #301b3f;
+}
+
+.planContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.planCard {
+  background-color: #f8f5fb;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  width: 220px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.planCard:hover {
+  border-color: #301b3f;
+  transform: translateY(-5px);
+}
+
+.selected {
+  border-color: #301b3f;
+  background-color: #e6d8f5;
+}
+
+.purchaseContainer {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.purchaseBtn {
+  padding: 12px 25px;
+  background-color: #301b3f;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.purchaseBtn:hover {
+  background-color: #533366;
+}
+
+.loading {
+  text-align: center;
+  font-size: 16px;
+  color: #444;
+}

@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+}
+
+/* Main area beside sidebar */
+.main {
+  margin-left: 260px; /* Sidebar width */
+  width: 100%;
+}
+
+/* Content below navbar */
+.content {
+  margin-top: 70px; /* Navbar height */
+  padding: 25px;
+  background: #f3f4f6;
+  min-height: calc(100vh - 70px);
+}

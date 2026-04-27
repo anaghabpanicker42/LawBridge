@@ -1,0 +1,149 @@
+.container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #301B3F, #5c3d7a);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.card {
+  width: 450px;
+  max-width: 100%;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 35px;
+  border-radius: 18px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(8px);
+  box-sizing: border-box;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #301B3F;
+  margin-bottom: 25px;
+}
+
+.summary {
+  margin-bottom: 15px;
+}
+
+.feeItem {
+  background: #f4f0fa;
+  padding: 14px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.feeAmount {
+  font-weight: bold;
+  color: #301B3F;
+}
+
+.feeDetails {
+  font-size: 13px;
+  color: #666;
+}
+
+.totalBox {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 15px 0;
+  color: #27ae60;
+}
+
+.totalBox span {
+  font-size: 22px;
+}
+
+.form {
+  margin-top: 15px;
+}
+
+.inputGroup {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputGroup label {
+  font-size: 13px;
+  margin-bottom: 5px;
+  color: #444;
+}
+
+.inputGroup input {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.inputGroup input:focus {
+  border-color: #301B3F;
+  outline: none;
+  box-shadow: 0 0 8px rgba(48, 27, 63, 0.3);
+}
+
+.payBtn {
+  width: 100%;
+  padding: 12px;
+  background: #301B3F;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.payBtn:hover {
+  background: #4a2c64;
+  transform: translateY(-2px);
+}
+
+.successBox {
+  margin-top: 20px;
+  padding: 15px;
+  background: #eafaf1;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 600;
+  color: #1e7e34;
+}
+
+.viewBtn {
+  margin-top: 10px;
+  padding: 8px 15px;
+  background: #301B3F;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.viewBtn:hover {
+  background: #4a2c64;
+}
+
+.noFee {
+  text-align: center;
+  color: red;
+}
+
+
+@media (max-width: 500px) {
+  .card {
+    padding: 20px;
+  }
+}

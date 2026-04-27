@@ -1,0 +1,50 @@
+.navbar {
+  height: 70px;
+  background: #1f1130;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  position: fixed;
+  top: 0;
+  left: 0;        
+  width: 100%;    
+  z-index: 1000;
+  color: white;
+  border-bottom: 1px solid #2e1b45;
+}
+
+
+.logoSection {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #d4af37;
+}
+
+.navLinks {
+  display: flex;
+  gap: 30px;
+}
+
+.navLinks button {
+  background: none;
+  border: none;
+  color: #e5e7eb;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.navLinks button:hover {
+  color: #d4af37;
+}
+
+
+.profileSection {
+  font-size: 14px;
+  background: #1f1130;
+  padding: 14px 59px;
+  border-radius: 30px;
+  cursor: pointer;
+}

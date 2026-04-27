@@ -1,0 +1,115 @@
+.page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ece9f7, #f4f6f9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 520px;
+}
+
+.card {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 24px;
+  box-shadow: 0 20px 50px rgba(48, 27, 63, 0.08);
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+}
+
+.title {
+  margin-bottom: 30px;
+  font-size: 26px;
+  font-weight: 700;
+  color: #301B3F;
+}
+
+.uploadBox {
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #444;
+}
+
+.input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  background: #fafafa;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.input:hover {
+  border-color: #301B3F;
+  background: #fff;
+}
+
+/* ===== Mode Selection (Radio Styled Cards) ===== */
+
+.modeContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.modeOption {
+  width: 48%;
+  padding: 15px;
+  border-radius: 14px;
+  border: 2px solid #eee;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s ease;
+  background: #fafafa;
+}
+
+.modeOption input {
+  margin-right: 8px;
+}
+
+.modeOption:hover {
+  border-color: #301B3F;
+  background: #f3eff9;
+}
+
+.selectedMode {
+  border-color: #301B3F;
+  background: #f3eff9;
+  color: #301B3F;
+}
+
+/* ===== Submit Button ===== */
+
+.button {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #301B3F, #4e2a63);
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 0 8px 20px rgba(48, 27, 63, 0.2);
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 25px rgba(48, 27, 63, 0.3);
+}

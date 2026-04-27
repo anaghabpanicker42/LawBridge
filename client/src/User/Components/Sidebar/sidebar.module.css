@@ -1,0 +1,64 @@
+.sidebar {
+  width: 260px;
+  height: 100vh;
+  background: #160a25;
+  color: white;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #2e1b45;
+}
+
+/* LOGO */
+.logoArea {
+  padding: 25px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #d4af37;
+  border-bottom: 1px solid #2e1b45;
+}
+
+/* MENU */
+.menu {
+  flex: 1;
+  padding: 20px 10px;
+}
+
+.menuItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 15px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #d1d5db;
+  transition: 0.3s;
+}
+
+.menuItem:hover {
+  background: #2b123f;
+  color: #d4af37;
+}
+
+.active {
+  background: #2b123f;
+  color: #d4af37;
+  border-left: 4px solid #d4af37;
+}
+
+/* LOGOUT */
+.logout {
+  padding: 18px;
+  text-align: center;
+  background: #2b123f;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.logout:hover {
+  background: #3b1c5f;
+}

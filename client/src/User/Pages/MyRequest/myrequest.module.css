@@ -1,0 +1,136 @@
+.page {
+  min-height: 100vh;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1000px;
+  max-width: 100%;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+}
+
+.heading {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #301B3F;
+}
+
+.loader,
+.empty {
+  text-align: center;
+  font-size: 16px;
+  padding: 30px 0;
+  color: #666;
+}
+
+.tableWrapper {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.table thead {
+  background: #301B3F;
+  color: white;
+}
+
+.table th {
+  padding: 16px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.table td {
+  padding: 18px 12px;
+  font-size: 14px;
+  border-bottom: 1px solid #eee;
+}
+
+.table tbody tr {
+  transition: all 0.2s ease;
+}
+
+.table tbody tr:hover {
+  background-color: #f6f2fb;
+  transform: scale(1.01);
+}
+
+.statusBox {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.paidBadge {
+  background: #e6f4ea;
+  color: #1e7e34;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.payBtn {
+  background: #f14747;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 8px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.payBtn:hover {
+  background: #f14747;
+  transform: translateY(-2px);
+}
+
+.viewBtn {
+  background: #301B3F;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 8px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.viewBtn:hover {
+  background: #4a2c64;
+  transform: translateY(-2px);
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+
+  .heading {
+    font-size: 22px;
+  }
+
+  .table th,
+  .table td {
+    font-size: 13px;
+    padding: 12px;
+  }
+}
